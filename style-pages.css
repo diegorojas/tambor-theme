@@ -1,0 +1,13 @@
+/*Pagination*/
+
+div#pagenav { height: 38px; color: #fff; }
+div#pagenav a, div#pagenav a:link { padding: 5px 10px; margin: 6px 4px 0px 0px; color: #638fbc; background: #070b0f none; border: 1px solid #1a2735; text-decoration: none; }
+
+div.wp-pagenavi { height: 38px; padding: 0; }
+div.wp-pagenavi a, div.wp-pagenavi a:link { float: left; display: block; padding: 5px 10px;  margin: 6px 4px 0px 0px; background: #070b0f none; border: 1px solid #1a2735; color: #638fbc; text-decoration: none; }
+div.wp-pagenavi a:visited { text-decoration: none; color: #638fbc; }
+div.wp-pagenavi a:hover { text-decoration: none; background: #001b35 none; }
+div.wp-pagenavi a:active { background: #001b35 none; }
+div.wp-pagenavi span { float: left; display: block; padding: 5px 10px;  margin: 6px 4px 0px 0px; color: #a1a1a1; background: #070b0f none; border: 1px solid #1a2735; }
+div.wp-pagenavi span.current { color: #fff; font-weight: bold; background: #001b35 none;  }
+div.wp-pagenavi span.extend { color: #a1a1a1; background: #070b0f none; }

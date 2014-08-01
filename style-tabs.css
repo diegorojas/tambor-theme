@@ -1,0 +1,27 @@
+/* Caution! Ensure accessibility in print and other media types... */
+@media projection, screen { /* Use class for showing/hiding tab content, so that visibility can be better controlled in different media types... */
+    .ui-tabs-hide { display: none; }
+}
+
+/* Hide useless elements in print layouts... */
+@media print {
+    .ui-tabs-nav { display: none; }
+}
+
+/* Skin */
+div#box-tabs div.interior { padding: 0; }
+div#box-tabs h2 { display: none; }
+div#box-tabs ul.ui-tabs-nav { display: block; height: 26px; list-style-type: none; margin: 0 0 3px 0; padding-left:10px; }
+div#box-tabs ul.ui-tabs-nav li { display: block; float: left; padding: 0; margin: 0; height: 24px; background: none; }
+div#box-tabs ul.ui-tabs-nav li a, div#box-tabs ul.ui-tabs-nav li a:visited {  color: #606060; display: block; text-align: center; margin: 0; padding: 0; background: #00070d none; font-family: sans-serif; font-size: 14px; line-height: 24px; text-decoration: none; outline: none; background: transparent none; font-weight:bold; text-shadow:0 1px 0 #FFFFFF; }
+div#box-tabs ul.ui-tabs-nav li.blr a, div#box-tabs ul.ui-tabs-nav li.blr a:visited { border-right: 1px solid #ececec; padding: 0 10px 0 0; }
+div#box-tabs ul.ui-tabs-nav li.arc a, div#box-tabs ul.ui-tabs-nav li.arc a:visited { padding: 0 10px; border-left: 1px solid #cdcdcd; border-right: 1px solid #ececec; }
+div#box-tabs ul.ui-tabs-nav li.cat a, div#box-tabs ul.ui-tabs-nav li.at a:visited { padding: 0 0 0 5px; border-left: 1px solid #cdcdcd; }
+div#box-tabs ul.ui-tabs-nav li.ui-tabs-selected a, div#box-tabs ul.ui-tabs-nav li.ui-tabs-selected a:visited { color: #3C3C3C; }
+.ui-tabs-nav a:hover, .ui-tabs-nav a:focus, .ui-tabs-nav a:active,
+.ui-tabs-nav .ui-tabs-unselect a:hover, .ui-tabs-nav .ui-tabs-unselect a:focus, .ui-tabs-nav .ui-tabs-unselect a:active { /* @ Opera, we need to be explicit again here now... */
+    cursor: pointer;
+}
+
+div#box-tabs div.ui-tabs-panel { padding: 2px 0 0 0; background: transparent url('images/background-general-border.gif') left top repeat-x; }
+div#box-tabs div.ui-tabs-panel p.notice { padding: 12px; margin: 0; text-align: center; }

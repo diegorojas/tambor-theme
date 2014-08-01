@@ -1,0 +1,98 @@
+/*Colors - Main*/
+
+body { background: #660000 none; color: #660000; 
+background:url(images/body-bg.jpg) top center repeat}
+blockquote { background: transparent url('images/background-blockquote.gif') left top no-repeat; }
+a:link, a:visited { color: #FF9900; outline:none;}
+a:hover { color: #EFA93B; outline:none;}
+
+
+
+/*Colors - Header*/
+
+div#topside { background: none;}
+div#rsstwitter a, div#rsstwitter a:visited { color: #ffffff; }
+a#rss { background: transparent url('images/rss-bg.png') left center no-repeat; }
+a#twitter { background: transparent url('images/twitter-bg.png') left center no-repeat; }
+
+div#title { background: transparent url('images/background-title.png') center top no-repeat; }
+div#title-wrapper { background: #FFFFFF; }
+div#sitename h1 { background: transparent left top no-repeat; }
+div#myads { background: transparent url('images/background-myads.jpg') left top no-repeat; }
+
+div#navmensearch { background: none repeat scroll 0 0 #FFFFFF; }
+div#navmensearch-wrapper { background: none repeat scroll 0 0 #FFFFFF; }
+div#search { background: none repeat scroll 0 0 #FFFFFF; }
+div#search form p input {  background: transparent none; color: #9a9a9a; }
+
+
+/*Colors - Body*/
+
+#post-unico-editar a {
+	color: #900;
+	text-decoration: none;
+}
+
+#post-unico-editar a:hover {
+	color: #C00;
+}
+
+div#wrapper { background: #ffffff }
+div#wrapper-wrapper { *background: transparent url('images/background-wrapper.jpg') center top no-repeat;   }
+div#wrapper-clearer { background: transparent url('images/background-wrapper-clearer.png') center bottom no-repeat; }
+div#twitter { background: transparent url('images/background-twitter-updates.jpg') top left no-repeat; }
+div#twitter span.twitter-timestamp abbr { color: #fff; }
+div#sidebar { }
+
+
+/*Colors - Sidebar*/
+
+div.box { background: none; }
+div.box div.top { background: none; }
+div.box div.bot { background: none; }
+div.box h2 { background: none; }
+div.box div.interior ul li { background: none; }
+div.box div.interior ul li span { color: #5a5a5a; font-weight:bold; text-shadow:0 1px 0 #FFFFFF;}
+div.box div.interior ul li a, div.box div.interior ul li a:visited {
+	background: none;
+	background-position:right;
+	color: #5a5a5a;
+	font-weight:bold;
+	text-shadow:0 1px 0 #FFFFFF;
+	
+}
+div.box div.interior ul li a:hover {
+	background: none;
+	background-position:right;
+	color: #3c3c3c;
+}
+
+div.box div.interior .tweets li {
+	padding:6px;
+}
+div.box div.interior .tweets li a {
+	background:transparent none repeat scroll 0 0;
+	display:inline;
+	padding:0;
+}
+div.box div.interior .tweets li a:hover {
+	background:transparent none repeat scroll 0 0;
+}
+
+div#box-newsletter div.interior { background: transparent url('images/background-feedburner.jpg') left 10px no-repeat; }
+div#box-newsletter div.interior span { background: transparent url('images/background-input.gif') left top no-repeat; }
+div#box-newsletter div.interior span input { background: transparent none; color: #9a9a9a; }
+
+table#wp-calendar { }
+
+div.box-widget_recent_comments div.interior ul li { background: transparent url('images/background-general-border.gif') left bottom repeat-x; font-weight:bold;}
+div.box-widget_recent_comments div.interior ul li a, div.box-widget_recent_comments div.interior ul li a:visited { display: inline; background: transparent none; text-shadow:0 1px 0 #FFFFFF; background:none;}
+div.box-widget_recent_comments div.interior ul li a:hover{background:none;}
+
+
+
+/*Colors - Footer*/ 
+
+div#footer {color: #fff; }
+div#footer-wrapper { border: none; background: none; }
+div#footer a, div#footer a:visited { color: #fff; }

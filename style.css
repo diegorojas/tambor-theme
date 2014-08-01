@@ -1,0 +1,15 @@
+/*
+Theme Name: Instituto Tambor
+Template: Designora-theme
+Descriptiom: Instituto do Tambos cutomization of Twenty Ten theme.
+Author: Diego Rojas
+Version: 1.1
+*/
+
+@import 'style-typo.css';
+@import 'style-req.css';
+@import 'style-layout.css';
+@import 'style-navig.css';
+@import 'style-pages.css';
+@import 'style-colors.css';
+@import 'style-tabs.css';

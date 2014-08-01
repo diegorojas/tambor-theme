@@ -1,0 +1,22 @@
+
+/* Layout - Header */
+div#search form p { display: block; margin: 0; padding: 9px 0 0 28px; }
+
+
+/* Navigation Menu */
+div#navmenu ul li a , div#navmenu ul li a:visited   { cursor: hand; _float: left; }
+
+
+/* Layout - Body */
+div#content {  }
+
+
+/* Layout - Comments */
+form#commentform p { display: block; line-height: 24px; }
+form#commentform p label { line-height: 24px; }
+
+
+/* Layout - Sidebar */
+div.box div.interior ul li { _height: 1%; }
+
+

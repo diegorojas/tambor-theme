@@ -1,0 +1,72 @@
+/*Typo - Main*/
+
+html, body, input, button, select, option, textarea { font-size: 12px; line-height: 19px; font-family: Arial, Helvetica, sans-serif; }
+a, a:visited { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+
+/*Typo - Header*/
+
+div#rsstwitter { font-size: 12px; line-height: 15px; font-family: Arial, Helvetica, sans-serif; text-transform: uppercase;}
+div#rsstwitter a:hover { text-decoration: none; }
+
+
+/*Typo - Body*/
+
+div#twitter { font-family: Georgia, 'Times New Roman', sans-serif; font-size: 22px; line-height: 30px; }
+
+/*Typo - Blog Entry*/
+h3 { margin:0; padding:0; font:bold 2.30em Arial, Helvetica, sans-serif; color:#30393d; }
+h2 { margin:0; padding:0; font:bold 1.9em Arial, Helvetica, sans-serif; color:#010106; }
+.post-content h3, .page-content h3 { margin:10px 0; padding:0; font:bold 1.50em Arial, Helvetica, sans-serif; color:#53798b; }
+h3 a:link, h3 a:active, h3 a:visited { color:#000000; }
+h3 a:hover { color:#30393d; text-decoration:none;}
+h3.post-title, .single h3.post-title, h3.post-title-small { margin:0; padding:4px 0 2px; height:auto;}
+
+div#featured h2 { font-family: Georgia, 'Times New Roman', sans-serif; font-size: 18px; line-height: 28px; }
+div#featured p { font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
+
+.pagetitle { font-family: Arial,Helvetica,sans-serif; margin-left:20px; border-bottom:1px solid #E8EBEC; font-size:10px; margin-bottom:15px; padding-bottom:8px; }
+h2.pagetitle { font-family: Georgia, 'Times New Roman', sans-serif; font-size: 18px; line-height: 24px; text-transform: uppercase; }
+
+div.post div.title h2 { font-family: Georgia, 'Times New Roman', sans-serif; font-size: 18px; line-height: 24px; text-transform: uppercase; }
+div.post div.title h2 a, div.post div.title h2 a:visited { font-family: Georgia, 'Times New Roman', sans-serif; font-size: 18px; line-height: 24px; text-transform: uppercase; text-decoration: none; }
+div.post div.title p { font-family: Georgia, 'Times New Roman', sans-serif; font-size: 10px; line-height: 24px; text-transform: uppercase; }
+div.post div.entry a { font-weight: normal; }
+div.post blockquote { font-style: italic; }
+div.post blockquote blockquote { font-style: normal; }
+
+
+
+/*Typo - Comments*/
+
+div#comments h2, div#postcomment h2 { font-family: Georgia, 'Times New Roman', serif; font-size: 18px; line-height: 24px; text-transform: uppercase; }
+div#comments p, div#postcomment p { line-height: 22px }
+div#comments p a, div#comments p a:visited { text-transform: uppercase; text-decoration: underline; }
+
+ol.commentlist li.commentlist cite { font-style: normal; }
+ol.commentlist li.commentlist cite span.author a, ol.commentlist li.commentlist cite span.author a:visited { text-decoration: underline; }
+ol.commentlist li.commentlist cite span.date a, ol.commentlist li.commentlist cite span.date a:visited { text-decoration: none; }
+
+
+h2#replycomment { font-family: Georgia, 'Times New Roman', serif; font-size: 24px; line-height: 30px; }
+h2#replycomment a:hover { text-decoration: none; }
+
+form#commentform p small { font-size: 11px; }
+form#commentform p.button { text-align: right; }
+
+
+
+/*Typo - Sidebar*/
+
+div.box h2 { font-family: sans-serif; font-size: 145%; line-height: 1.4em; font-weight: bold; color: #3c3c3c; text-shadow:0 1px 0 #FFFFFF; }
+div.box h2 a{ font-family: sans-serif; line-height: 1.4em; font-weight: bold; color: #3c3c3c; text-shadow:0 1px 0 #FFFFFF; text-decoration:none; }
+div.box h2 a:hover{ border-bottom:1px solid #3c3c3c; }
+div.box div.interior ul li a:hover { text-decoration: none; }
+
+
+/*Typo - Footer*/
+
+div#footer { font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 14px; }
+
+	

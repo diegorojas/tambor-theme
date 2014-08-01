@@ -1,0 +1,90 @@
+/* Navigation Menu */
+
+div#navmenu { margin: 0 0 0 35px; padding: 0; height: 40px; float: left; }
+div#navmenu ul { display: block; margin: 0; padding: 0; height: 40px; float: left;}
+div#navmenu ul li { display: block; margin: 0; padding: 0; float: left; height: 40px;}
+
+div#navmenu .page-item-2 {
+ 	background: url(images/btn_artesaos.jpg) no-repeat scroll top;
+	color: #FF9900;
+	font-weight: bold;
+	text-indent: -99999px;
+	width: 110px;
+}
+
+div#navmenu .page-item-7 {
+ 	background: url(images/btn_tambor.jpg) no-repeat scroll top;
+	color: #FF9900;
+	font-weight: bold;
+	text-indent: -99999px;
+	width: 210px;
+}
+
+div#navmenu .page-item-9 {
+ 	background: url(images/btn_instrumentos.jpg) no-repeat scroll top;
+	color: #FF9900;
+	font-weight: bold;
+	text-indent: -99999px;
+	width: 150px;
+}
+
+div#navmenu .page-item-11 {
+ 	background: url(images/btn_atividades.jpg) no-repeat scroll top;
+	color: #FF9900;
+	font-weight: bold;
+	text-indent: -99999px;
+	width: 140px;
+}
+
+
+div#navmenu .page-item-14 {
+ 	background: url(images/btn_parceiros.jpg) no-repeat scroll top;
+	color: #FF9900;
+	font-weight: bold;
+	text-indent: -99999px;
+	width: 120px;
+}
+
+div#navmenu .page-item-79 {
+ 	background: url(images/btn_blog.jpg) no-repeat scroll top;
+	color: #FF9900;
+	font-weight: bold;
+	text-indent: -99999px;
+	width: 60px;
+}
+
+div#navmenu .page-item-21 {
+ 	background: url(images/btn_contato.jpg) no-repeat scroll top;
+	color: #FF9900;
+	font-weight: bold;
+	text-indent: -99999px;
+	width: 100px;
+}
+
+
+div#navmenu ul li a, div#navmenu ul li a:visited { font-family: Arial, Helvetica, sans-serif; font-size: 15px; text-transform: uppercase; display: block; margin: 0; padding: 0 15px; height: 40px; line-height: 40px; color: #FF9900; }
+
+
+.navigation { color:#5C5C5C; font-size:13px; font-weight:bold; overflow:hidden; text-align:center; padding:17px 0 20px 31px; }
+.navigation a { color:#5C5C5C; font-size:13px; }
+.navig-bg{ background: url(images/comment-top.gif) no-repeat left top; height:45px;}
+.navig-bg-btm{ background: url(images/navig-bottom.gif) no-repeat left bottom; height:45px; }
+.navig-pages{ display:block; padding:10px 0 0 0; text-align:right; }
+.navig-pages .next a{ background: url(images/newer-post.gif) no-repeat left top; width:114px; height:26px; display:block; color:transparent; }
+.navig-pages .next a:hover{ background: url(images/newer-post.gif) no-repeat left bottom; width:114px; height:26px; display:block; color:transparent; }
+.navig-pages .next{ float:right; }
+.navig-pages .prev a{ background: url(images/older-post.gif) no-repeat left top; width:114px; height:26px; display:block; color:transparent; margin-left:10px; }
+.navig-pages .prev a:hover{ background: url(images/older-post.gif) no-repeat left bottom; width:114px; height:26px; display:block; color:transparent; margin-left:10px; }
+.navig-pages .prev{float:right; }
+.wp-pagenavi { line-height:1.8em; padding:10px 15px; width: 200px; text-align:left; float:left; }
+.wp-pagenavi a { -moz-background-clip:border; -moz-background-inline-policy:continuous; -moz-background-origin:padding; background:none !important; margin:2px; padding:4px 3px !important; border:none !important; text-shadow:0 1px 0 #FFFFFF !important; }
+.wp-pagenavi a:visited { background:none !important; border:none !important; color:#0066CC; margin:2px; padding:2px 4px; text-decoration:none; }
+.wp-pagenavi a:active{ background:none !important; border:none !important; }
+.wp-pagenavi span.pages { -moz-background-clip:border; -moz-background-inline-policy:continuous; -moz-background-origin:padding; background:#333333 none repeat scroll 0 0; margin:2px; padding:4px 8px; }
+.wp-pagenavi span.current { -moz-background-clip:border; -moz-background-inline-policy:continuous; -moz-background-origin:padding; background-color:#FFFFFF; border:1px solid #80bcfe !important; color:#000000; font-weight:bold; margin:2px; padding:2px 7px !important; -moz-border-radius-bottomleft:4px; -moz-border-radius-bottomright:4px; -moz-border-radius-topleft:4px; -moz-border-radius-topright:4px; }
+.wp-pagenavi span.extend { -moz-background-clip:border; -moz-background-inline-policy:continuous; -moz-background-origin:padding; background:#151515 none repeat scroll 0 0; margin:2px; padding:4px 8px; }
+.clr { clear: both; }
+#respond { margin-bottom: 15px; }
+#sidebar #tag_cloud a { display: inline; padding: 3px; border: none; }
+#sidebar #tag_cloud a:hover { color: #cc2a43; background-color: transparent; }
+

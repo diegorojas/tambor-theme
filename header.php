@@ -23,6 +23,7 @@ div#sitename h1 {
 </style>
 <![endif]-->
 <?php wp_head(); ?>
+<link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.tabs.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/retweet.js"></script>
@@ -72,11 +73,10 @@ jQuery(document).ready(function() {
 
 <?php if (is_home () || is_front_page () ) { ?>
 
-<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="100%" height="100%" id="swf_header" align="middle">
-	<param name="allowScriptAccess" value="sameDomain" />
-	<param name="allowFullScreen" value="false" />
-	<param name="movie" value="http://www.institutotambor.com.br/wp-content/themes/tambor/header_tambor.swf"/><param name="quality" value="high" /><param name="scale" value="noscale" /><param name="bgcolor" value="#ffffff" /> <embed src="http://www.institutotambor.com.br/wp-content/themes/tambor/header_tambor.swf" quality="high" scale="noscale" bgcolor="#ffffff" width="100%" height="100%" name="swf_header" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
-
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="100%" height="100%" id="swf_header" align="middle">
+		<param name="allowScriptAccess" value="sameDomain" />
+		<param name="allowFullScreen" value="false" />
+		<param name="movie" value="http://www.institutotambor.com.br/wp-content/themes/tambor/header_tambor.swf"/><param name="quality" value="high" /><param name="scale" value="noscale" /><param name="bgcolor" value="#ffffff" /> <embed src="http://www.institutotambor.com.br/wp-content/themes/tambor/header_tambor.swf" quality="high" scale="noscale" bgcolor="#ffffff" width="100%" height="100%" name="swf_header" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
 	</object>
 
 <?php } else if (is_page () ) { ?>
@@ -93,14 +93,9 @@ jQuery(document).ready(function() {
 	</div>
 	<div id="navmensearch">
 		<div id="navmensearch-wrapper">
-
-			<div id="navmenu">
-				<ul>
-					<li<?php echo (is_home() ? ' class="current_page_item"': '')?>></li>
-					<?php themefunction_list_pages_flat('sort_column=menu_order&title_li=&exclude=29,31,33,35,37,39,42,58,60,62,79,53,51,67,69,71,100,206,215,216,221,226,229,232,235,238,241')
- ?>
-				</ul>
-			</div>
+				<nav id="site-navigation" class="main-navigation" role="navigation">
+			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+				</nav><!-- #site-navigation -->
 		</div>
 	</div>
 

@@ -30,4 +30,12 @@ if (function_exists('register_sidebar')) {
 	));
 }
 
+function tambor_setup() {
+
+// This theme uses wp_nav_menu() in one location.
+	register_nav_menu( 'primary', __( 'Primary Menu', 'twentytwelve' ) );
+}
+add_action( 'after_setup_theme', 'tambor_setup' );
+
+
 ?>

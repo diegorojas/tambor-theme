@@ -1,72 +1,108 @@
 /* Navigation Menu */
 
-div#navmenu { margin: 0 0 0 35px; padding: 0; height: 40px; float: left; }
-div#navmenu ul { display: block; margin: 0; padding: 0; height: 40px; float: left;}
-div#navmenu ul li { display: block; margin: 0; padding: 0; float: left; height: 40px;}
-
-div#navmenu .page-item-2 {
- 	background: url(images/btn_artesaos.jpg) no-repeat scroll top;
-	color: #FF9900;
-	font-weight: bold;
-	text-indent: -99999px;
-	width: 110px;
-}
-
-div#navmenu .page-item-7 {
- 	background: url(images/btn_tambor.jpg) no-repeat scroll top;
-	color: #FF9900;
-	font-weight: bold;
-	text-indent: -99999px;
-	width: 210px;
-}
-
-div#navmenu .page-item-9 {
- 	background: url(images/btn_instrumentos.jpg) no-repeat scroll top;
-	color: #FF9900;
-	font-weight: bold;
-	text-indent: -99999px;
-	width: 150px;
-}
-
-div#navmenu .page-item-11 {
- 	background: url(images/btn_atividades.jpg) no-repeat scroll top;
-	color: #FF9900;
-	font-weight: bold;
-	text-indent: -99999px;
-	width: 140px;
-}
-
-
-div#navmenu .page-item-14 {
- 	background: url(images/btn_parceiros.jpg) no-repeat scroll top;
-	color: #FF9900;
-	font-weight: bold;
-	text-indent: -99999px;
-	width: 120px;
-}
-
-div#navmenu .page-item-79 {
- 	background: url(images/btn_blog.jpg) no-repeat scroll top;
-	color: #FF9900;
-	font-weight: bold;
-	text-indent: -99999px;
-	width: 60px;
-}
-
-div#navmenu .page-item-21 {
- 	background: url(images/btn_contato.jpg) no-repeat scroll top;
-	color: #FF9900;
-	font-weight: bold;
-	text-indent: -99999px;
-	width: 100px;
-}
-
-
-div#navmenu ul li a, div#navmenu ul li a:visited { font-family: Arial, Helvetica, sans-serif; font-size: 15px; text-transform: uppercase; display: block; margin: 0; padding: 0 15px; height: 40px; line-height: 40px; color: #FF9900; }
-
-
 .navigation { color:#5C5C5C; font-size:13px; font-weight:bold; overflow:hidden; text-align:center; padding:17px 0 20px 31px; }
 .navigation a { color:#5C5C5C; font-size:13px; }
+
+
+/* Navigation Menu */
+.main-navigation {
+	text-align: center;
+
+}
+.main-navigation li {
+	font-family: 'Oswald', sans-serif; 
+	font-size: 1.4em; 
+	text-transform: uppercase; 
+	display: block; 
+	margin: 0; 
+	padding: 0 15px; 
+	height: 40px;  
+	color: #FF9900;
+	line-height: 1.42857143;
+}
+.main-navigation a {
+	color: #5e5e5e;
+}
+.main-navigation a:hover {
+	color: #21759b;
+}
+.main-navigation ul.nav-menu,
+.main-navigation div.nav-menu > ul {
+	display: none;
+}
+.main-navigation ul.nav-menu.toggled-on,
+.menu-toggle {
+	display: inline-block;
+}
+
+.main-navigation ul.nav-menu,
+	.main-navigation div.nav-menu > ul {
+		display: inline-block !important;
+		text-align: left;
+		width: 96%;
+	}
+	.main-navigation ul {
+		margin: 0;
+		text-indent: 0;
+	}
+	.main-navigation li a,
+	.main-navigation li {
+		display: inline-block;
+		text-decoration: none;
+	}
+	.main-navigation li a {
+		border-bottom: 0;
+		text-transform: uppercase;
+		white-space: nowrap;
+	}
+	.main-navigation li a:hover {
+		color: #eca839;
+	}
+	.main-navigation li {
+		margin: 0 0 0 0;
+		position: relative;
+	}
+	.main-navigation li ul {
+		display: none;
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		top: 100%;
+		z-index: 1;
+	}
+	.main-navigation li ul ul {
+		top: 0;
+		left: 100%;
+	}
+	.main-navigation ul li:hover > ul {
+		border-left: 0;
+		display: block;
+	}
+	.main-navigation li ul li a {
+		background: #efefef;
+		display: block;
+		font-size: 0.6em;
+		line-height: 2.181818182;
+		padding: 4px 6px;
+		width: 8em;
+		white-space: normal;
+	}
+	.main-navigation li ul li a:hover {
+		background: #e3e3e3;
+		color: #eca839;
+	}
+	.main-navigation .current-menu-item > a,
+	.main-navigation .current-menu-ancestor > a,
+	.main-navigation .current_page_item > a,
+	.main-navigation .current_page_ancestor > a {
+		color: #ECA839;
+		font-weight: bold;
+	}
+	.menu-toggle {
+		display: none;
+	}
+
+
 .navig-bg{ background: url(images/comment-top.gif) no-repeat left top; height:45px;}
 .navig-bg-btm{ background: url(images/navig-bottom.gif) no-repeat left bottom; height:45px; }
 .navig-pages{ display:block; padding:10px 0 0 0; text-align:right; }
